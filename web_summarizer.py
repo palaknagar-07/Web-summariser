@@ -85,10 +85,7 @@ def summarize_website(url):
     website = Website(url)
     prompt = build_prompt(website)
     summary = summarize_with_ollama(prompt)
-
-    # Display the markdown summary beautifully in the terminal
-    console = Console()
-    console.print(Markdown(f"# Summary of: {website.title}\n\n{summary}"))
+    return f"# Summary of: {website.title}\n\n{summary}"
 
 # Entry point for the script; change the URL here to summarize other websites
 if __name__ == "__main__":
