@@ -1,0 +1,4 @@
+gradio
+beautifulsoup4
+requests
+pytest
