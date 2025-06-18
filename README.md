@@ -10,7 +10,7 @@ A simple web content summarizer built using Python, BeautifulSoup, and Gradio.
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/your-username/web-summarizer.git
+git clone https://github.com/palaknagar-07/web-summarizer.git
 cd web-summarizer
 python3 -m venv .venv
 source .venv/bin/activate
